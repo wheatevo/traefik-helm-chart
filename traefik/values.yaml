@@ -236,7 +236,7 @@ ports:
 # from.
 service:
   enabled: true
-  type: LoadBalancer
+  type: NodePort
   # Additional annotations (e.g. for cloud provider specific config)
   annotations: {}
   # Additional service labels (e.g. for filtering Service by custom labels)
